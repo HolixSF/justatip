@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA47398B1F4D1546003AF2B4 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA47398A1F4D1546003AF2B4 /* SettingsTableViewController.swift */; };
+		FA47398D1F4D18D7003AF2B4 /* DefaultTipTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA47398C1F4D18D7003AF2B4 /* DefaultTipTableViewController.swift */; };
+		FA47398E1F4D43EA003AF2B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF39E4C1F48913400261B0A /* ViewController.swift */; };
+		FAF39E4B1F48913400261B0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF39E4A1F48913400261B0A /* AppDelegate.swift */; };
+		FAF39E501F48913400261B0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF39E4E1F48913400261B0A /* Main.storyboard */; };
+		FAF39E521F48913400261B0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF39E511F48913400261B0A /* Assets.xcassets */; };
+		FAF39E551F48913400261B0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF39E531F48913400261B0A /* LaunchScreen.storyboard */; };
+		FAF39E601F48913400261B0A /* justatipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF39E5F1F48913400261B0A /* justatipTests.swift */; };
+		FAF39E6B1F48913400261B0A /* justatipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF39E6A1F48913400261B0A /* justatipUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAF39E5C1F48913400261B0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF39E3F1F48913300261B0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAF39E461F48913400261B0A;
+			remoteInfo = justatip;
+		};
+		FAF39E671F48913400261B0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF39E3F1F48913300261B0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAF39E461F48913400261B0A;
+			remoteInfo = justatip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA47398A1F4D1546003AF2B4 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		FA47398C1F4D18D7003AF2B4 /* DefaultTipTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultTipTableViewController.swift; sourceTree = "<group>"; };
+		FAF39E471F48913400261B0A /* justatip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = justatip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF39E4A1F48913400261B0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAF39E4C1F48913400261B0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAF39E4F1F48913400261B0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAF39E511F48913400261B0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAF39E541F48913400261B0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAF39E561F48913400261B0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF39E5B1F48913400261B0A /* justatipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = justatipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF39E5F1F48913400261B0A /* justatipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = justatipTests.swift; sourceTree = "<group>"; };
+		FAF39E611F48913400261B0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF39E661F48913400261B0A /* justatipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = justatipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF39E6A1F48913400261B0A /* justatipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = justatipUITests.swift; sourceTree = "<group>"; };
+		FAF39E6C1F48913400261B0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAF39E441F48913400261B0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF39E581F48913400261B0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF39E631F48913400261B0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAF39E3E1F48913300261B0A = {
+			isa = PBXGroup;
+			children = (
+				FAF39E491F48913400261B0A /* justatip */,
+				FAF39E5E1F48913400261B0A /* justatipTests */,
+				FAF39E691F48913400261B0A /* justatipUITests */,
+				FAF39E481F48913400261B0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAF39E481F48913400261B0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAF39E471F48913400261B0A /* justatip.app */,
+				FAF39E5B1F48913400261B0A /* justatipTests.xctest */,
+				FAF39E661F48913400261B0A /* justatipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAF39E491F48913400261B0A /* justatip */ = {
+			isa = PBXGroup;
+			children = (
+				FAF39E4A1F48913400261B0A /* AppDelegate.swift */,
+				FAF39E4C1F48913400261B0A /* ViewController.swift */,
+				FAF39E4E1F48913400261B0A /* Main.storyboard */,
+				FA47398C1F4D18D7003AF2B4 /* DefaultTipTableViewController.swift */,
+				FAF39E511F48913400261B0A /* Assets.xcassets */,
+				FAF39E531F48913400261B0A /* LaunchScreen.storyboard */,
+				FAF39E561F48913400261B0A /* Info.plist */,
+				FA47398A1F4D1546003AF2B4 /* SettingsTableViewController.swift */,
+			);
+			path = justatip;
+			sourceTree = "<group>";
+		};
+		FAF39E5E1F48913400261B0A /* justatipTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAF39E5F1F48913400261B0A /* justatipTests.swift */,
+				FAF39E611F48913400261B0A /* Info.plist */,
+			);
+			path = justatipTests;
+			sourceTree = "<group>";
+		};
+		FAF39E691F48913400261B0A /* justatipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAF39E6A1F48913400261B0A /* justatipUITests.swift */,
+				FAF39E6C1F48913400261B0A /* Info.plist */,
+			);
+			path = justatipUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAF39E461F48913400261B0A /* justatip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF39E6F1F48913400261B0A /* Build configuration list for PBXNativeTarget "justatip" */;
+			buildPhases = (
+				FAF39E431F48913400261B0A /* Sources */,
+				FAF39E441F48913400261B0A /* Frameworks */,
+				FAF39E451F48913400261B0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = justatip;
+			productName = justatip;
+			productReference = FAF39E471F48913400261B0A /* justatip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAF39E5A1F48913400261B0A /* justatipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF39E721F48913400261B0A /* Build configuration list for PBXNativeTarget "justatipTests" */;
+			buildPhases = (
+				FAF39E571F48913400261B0A /* Sources */,
+				FAF39E581F48913400261B0A /* Frameworks */,
+				FAF39E591F48913400261B0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF39E5D1F48913400261B0A /* PBXTargetDependency */,
+			);
+			name = justatipTests;
+			productName = justatipTests;
+			productReference = FAF39E5B1F48913400261B0A /* justatipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAF39E651F48913400261B0A /* justatipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF39E751F48913400261B0A /* Build configuration list for PBXNativeTarget "justatipUITests" */;
+			buildPhases = (
+				FAF39E621F48913400261B0A /* Sources */,
+				FAF39E631F48913400261B0A /* Frameworks */,
+				FAF39E641F48913400261B0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF39E681F48913400261B0A /* PBXTargetDependency */,
+			);
+			name = justatipUITests;
+			productName = justatipUITests;
+			productReference = FAF39E661F48913400261B0A /* justatipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAF39E3F1F48913300261B0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Lu;
+				TargetAttributes = {
+					FAF39E461F48913400261B0A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					FAF39E5A1F48913400261B0A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FAF39E461F48913400261B0A;
+					};
+					FAF39E651F48913400261B0A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FAF39E461F48913400261B0A;
+					};
+				};
+			};
+			buildConfigurationList = FAF39E421F48913300261B0A /* Build configuration list for PBXProject "justatip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAF39E3E1F48913300261B0A;
+			productRefGroup = FAF39E481F48913400261B0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAF39E461F48913400261B0A /* justatip */,
+				FAF39E5A1F48913400261B0A /* justatipTests */,
+				FAF39E651F48913400261B0A /* justatipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAF39E451F48913400261B0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF39E551F48913400261B0A /* LaunchScreen.storyboard in Resources */,
+				FAF39E521F48913400261B0A /* Assets.xcassets in Resources */,
+				FAF39E501F48913400261B0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF39E591F48913400261B0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF39E641F48913400261B0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAF39E431F48913400261B0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF39E4B1F48913400261B0A /* AppDelegate.swift in Sources */,
+				FA47398B1F4D1546003AF2B4 /* SettingsTableViewController.swift in Sources */,
+				FA47398E1F4D43EA003AF2B4 /* ViewController.swift in Sources */,
+				FA47398D1F4D18D7003AF2B4 /* DefaultTipTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF39E571F48913400261B0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF39E601F48913400261B0A /* justatipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF39E621F48913400261B0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF39E6B1F48913400261B0A /* justatipUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAF39E5D1F48913400261B0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAF39E461F48913400261B0A /* justatip */;
+			targetProxy = FAF39E5C1F48913400261B0A /* PBXContainerItemProxy */;
+		};
+		FAF39E681F48913400261B0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAF39E461F48913400261B0A /* justatip */;
+			targetProxy = FAF39E671F48913400261B0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAF39E4E1F48913400261B0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF39E4F1F48913400261B0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAF39E531F48913400261B0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF39E541F48913400261B0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAF39E6D1F48913400261B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAF39E6E1F48913400261B0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAF39E701F48913400261B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = justatip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.holixsf.justatip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FAF39E711F48913400261B0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = justatip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.holixsf.justatip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FAF39E731F48913400261B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = justatipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.holixsf.justatipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/justatip.app/justatip";
+			};
+			name = Debug;
+		};
+		FAF39E741F48913400261B0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = justatipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.holixsf.justatipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/justatip.app/justatip";
+			};
+			name = Release;
+		};
+		FAF39E761F48913400261B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = justatipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.holixsf.justatipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = justatip;
+			};
+			name = Debug;
+		};
+		FAF39E771F48913400261B0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = justatipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.holixsf.justatipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = justatip;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAF39E421F48913300261B0A /* Build configuration list for PBXProject "justatip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF39E6D1F48913400261B0A /* Debug */,
+				FAF39E6E1F48913400261B0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF39E6F1F48913400261B0A /* Build configuration list for PBXNativeTarget "justatip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF39E701F48913400261B0A /* Debug */,
+				FAF39E711F48913400261B0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF39E721F48913400261B0A /* Build configuration list for PBXNativeTarget "justatipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF39E731F48913400261B0A /* Debug */,
+				FAF39E741F48913400261B0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF39E751F48913400261B0A /* Build configuration list for PBXNativeTarget "justatipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF39E761F48913400261B0A /* Debug */,
+				FAF39E771F48913400261B0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAF39E3F1F48913300261B0A /* Project object */;
+}
